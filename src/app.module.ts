@@ -30,7 +30,7 @@ import { Bot } from "./bot/models/bot.model";
       models: [Bot],
       autoLoadModels: true,
       logging: false,
-      sync: { force: true }, // force
+      sync: { alter: true }, // force
     }),
 
     BotModule,
